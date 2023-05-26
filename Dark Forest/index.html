@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Group5 Project</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Creepster"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="startPage" class="backgroundImg">
+      <div class="fallingSpider">
+        <img src="./introImg/five-spider-fall.png" alt="" width="85%" />
+      </div>
+
+      <div class="text">
+        <p>Dare to cross the Dark Forest ?</p>
+      </div>
+
+      <div class="ghost">
+        <img src="./introImg/ghost33.png" alt="" width="100%" />
+      </div>
+
+      <div class="spider s1">
+        <img src="introImg/spider1.png" alt="" width="100%" />
+      </div>
+      <div class="spider s3">
+        <img src="./introImg/spider3.png" alt="" width="100%" />
+      </div>
+      <div class="spider s4">
+        <img src="./introImg/spider4.png" alt="" width="100%" />
+      </div>
+
+      <button id="startGame" class="startBtn">Start Game</button>
+    </div>
+
+    <div id="gameArea">
+      <canvas id="canvas1"></canvas>
+      <button id="restart">Restart</button>
+    </div>
+
+    <!-- player -->
+    <img
+      id="player_ninja"
+      class="gameImage"
+      src="./player/ninjaCharacter.png"
+      alt=""
+    />
+
+    <!-- life -->
+    <img id="life" class="gameImage" src="./lives/heart.png" alt="" />
+
+    <!-- boom -->
+    <img id="boom" class="gameImage" src="./explosion/boom.png" alt="" />
+    <!-- layers -->
+    <img id="layer1" class="gameImage" src="./layers/layer-1.png" alt="" />
+    <img id="layer3" class="gameImage" src="./layers/layer-3.png" alt="" />
+    <img id="layer4" class="gameImage" src="./layers/layer-4.png" alt="" />
+    <img id="Slayer1" class="gameImage" src="./layers/scifi1.png" alt="" />
+    <img id="Slayer2" class="gameImage" src="./layers/scifi2.png" alt="" />
+
+    <!-- platforms -->
+    <img
+      id="basePlatform"
+      class="gameImage"
+      src="./platforms/platform.png"
+      alt=""
+    />
+    <img
+      id="smallTallPlatform"
+      class="gameImage"
+      src="./platforms/platformSmallTall.png"
+      alt=""
+    />
+
+    <!-- enemies -->
+    <img
+      id="enemyPlant"
+      class="gameImage"
+      src="./enemy/enemy_plant.png"
+      alt=""
+    />
+    <img
+      id="enemyGhost"
+      class="gameImage"
+      src="./enemy/enemy_ghost.png"
+      alt=""
+    />
+    <img
+      id="enemySpider"
+      class="gameImage"
+      src="./enemy/enemy_spider.png"
+      alt=""
+    />
+    <img 
+    id="enemyRaven"
+    class="gameImage"
+    src="./enemy/raven.png"
+    alt="">
+
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>
